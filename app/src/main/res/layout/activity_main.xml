@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:background="@drawable/bgcurv">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sina"
+            android:textColor="#fff"
+            android:textSize="48dp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="105dp"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wang"
+            android:textColor="#FFA801"
+            android:textSize="48dp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="200dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Yok Sinau Wayangan"
+            android:textSize="18sp"
+            android:layout_marginTop="95dp"
+            android:textAlignment="center"
+            android:textColor="#FFA801"
+            ></TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:background="#fff">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/TentangW"
+            android:layout_width="180dp"
+            android:layout_height="250dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="16dp"
+            android:outlineAmbientShadowColor="#000"
+            android:outlineSpotShadowColor="#000"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:onClick="tentangwayang"
+            >
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="116dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/l3"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tentang Wayang"
+                android:layout_marginTop="200dp"
+                android:textAlignment="center"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"></TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/TokohW"
+            android:layout_width="180dp"
+            android:layout_height="250dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:outlineAmbientShadowColor="#000"
+            android:outlineSpotShadowColor="#000"
+            app:cardCornerRadius="15dp"
+            android:onClick="tokohwayang">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="116dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/l1"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="200dp"
+                android:fontFamily="monospace"
+                android:text="Tokoh Wayang"
+                android:textAlignment="center"
+                android:textSize="14dp"
+                android:textStyle="bold"></TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_below="@+id/TentangW"
+            android:layout_width="180dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="15dp"
+            android:outlineAmbientShadowColor="#000"
+            android:outlineSpotShadowColor="#000"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:onClick="quizwayang"
+            >
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="116dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="25dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/l4"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Quiz Wayang"
+                android:layout_marginTop="200dp"
+                android:textAlignment="center"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"></TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_below="@+id/TokohW"
+            android:layout_width="180dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="15dp"
+            android:outlineAmbientShadowColor="#000"
+            android:outlineSpotShadowColor="#000"
+            android:layout_marginRight="16dp"
+            android:layout_alignParentRight="true"
+            android:onClick="tentangaplikasi"
+            >
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="116dp"
+                android:layout_marginTop="60dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/l2"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="monospace"
+                android:layout_marginTop="200dp"
+                android:textAlignment="center"
+                android:textSize="14dp"
+                android:text="Tentang Aplikasi"
+                android:textStyle="bold"></TextView>
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

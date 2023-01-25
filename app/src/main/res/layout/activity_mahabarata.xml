@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MahabarataActivity">
+
+    <ImageView
+        android:id="@+id/kisah"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="25sp"
+        android:src="@drawable/mahabarata"></ImageView>
+    <LinearLayout
+        android:id="@+id/article_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/kisah"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/carocard"
+            android:padding="1dp"
+            android:text="Kisah"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:text="Mahabarata"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#FFA801"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_below="@+id/article_heading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="Ringkasan kisah Mahabarata"
+                android:textColor="@color/oldgreen"
+                android:textAppearance="@android:style/TextAppearance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:lineSpacingExtra="1.5dp"
+                android:text="@string/mahabarata" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

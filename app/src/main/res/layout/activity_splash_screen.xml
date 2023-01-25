@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="@drawable/vectorbg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sina"
+            android:textColor="#28513D"
+            android:textSize="48dp"
+            android:layout_marginTop="290dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="133dp"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wang"
+            android:textColor="#FFA801"
+            android:textSize="48dp"
+            android:layout_marginTop="290dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="233dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/s4"></ImageView>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="490dp"
+            android:layout_marginLeft="130dp"
+            android:src="@drawable/s1"></ImageView>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="540dp"
+            android:layout_marginLeft="320dp"
+            android:src="@drawable/s3"></ImageView>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="515dp"
+            android:layout_marginLeft="230dp"
+            android:src="@drawable/s2"></ImageView>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

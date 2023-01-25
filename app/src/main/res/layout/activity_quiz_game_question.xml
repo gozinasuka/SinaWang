@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".QuizGameQuestionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+        
+        <TextView
+            android:id="@+id/Jawab_wayang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="#363A43"
+            android:textSize="22sp"
+            android:text="Siapakah tokoh wayang ini ?"></TextView>
+        <ImageView
+            android:id="@+id/image_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/arjuna"></ImageView>
+
+        <LinearLayout
+            android:id="@+id/Details_Proses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/ProsesBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:indeterminate="false"
+                android:max="10"
+                android:minHeight="50dp"
+                android:progress="0"></ProgressBar>
+
+            <TextView
+                android:id="@+id/tv_Proses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textColorHint="#7A8089"
+                android:textSize="14sp"
+                tools:text="0/10"></TextView>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_option_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_border"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:textColor="#7A8089"
+            android:textSize="18sp"
+            tools:text="Apple"></TextView>
+
+        <TextView
+            android:id="@+id/tv_option_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_border"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:textColor="#7A8089"
+            android:textSize="18sp"
+            tools:text="Mozila"></TextView>
+
+        <TextView
+            android:id="@+id/tv_option_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_border"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:textColor="#7A8089"
+            android:textSize="18sp"
+            tools:text="Youtube"></TextView>
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/oldgreen"
+            android:text="Simpan"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"></Button>
+    </LinearLayout>
+    
+</ScrollView>

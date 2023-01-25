@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">SinaWang</string>
+    <string name="pengenalan_wayang">Apa itu</string>
+    <string name="article_subtitle">Pengenalan singkat Wayang Kulit</string>
+    <string name="article_text"> \t <b>Wayang</b> adalah seni pertunjukkan asli Indonesia yang berkembang pesat di Pulau Jawa dan Bali. Pertunjukan ini juga populer di beberapa daerah seperti Sumatra dan Semenanjung Malaya juga memiliki beberapa budaya wayang yang terpengaruh oleh kebudayaan Jawa dan Hindu.\n\n
+\t UNESCO, lembaga yang membawahi kebudayaan dari PBB, pada 7 November 2003 menetapkan wayang sebagai pertunjukan bayangan boneka tersohor dari Indonesia, sebuah warisan mahakarya dunia yang tak ternilai dalam seni bertutur (Masterpiece of Oral and Intangible Heritage of Humanity).
+Sebenarnya, pertunjukan boneka tak hanya ada di Indonesia karena banyak pula negara lain yang memiliki pertunjukan boneka. Namun pertunjukan bayangan boneka (Wayang) di Indonesia memiliki gaya tutur dan keunikan tersendiri, yang merupakan mahakarya asli dari Indonesia.\n\n
+        \t Untuk itulah UNESCO memasukannya ke dalam Daftar Representatif Budaya Takbenda Warisan Manusia pada tahun 2003.
+Tak ada bukti yang menunjukkan wayang telah ada sebelum agama Hindu menyebar di Asia Selatan. Diperkirakan seni pertunjukan dibawa masuk oleh pedagang India. Namun, kegeniusan lokal dan kebudayaan yang ada sebelum masuknya Hindu menyatu dengan perkembangan seni pertunjukan yang masuk memberi warna tersendiri pada seni pertunjukan di Indonesia. Sampai saat ini, catatan awal yang bisa didapat tentang pertunjukan wayang berasal dari Prasasti Balitung pada Abad ke 4 yang berbunyi si Galigi mawayang.\n\n
+\t Ketika agama Hindu masuk ke Indonesia dan menyesuaikan kebudayaan yang sudah ada, seni pertunjukan ini menjadi media efektif menyebarkan agama Hindu. Pertunjukan wayang menggunakan cerita Ramayana dan Mahabharata.
+Para Wali Sembilan di Jawa, sudah membagi wayang menjadi tiga. Wayang Kulit di timur, wayang wong di Jawa Tengah dan wayang golek di Jawa Barat. Adalah Raden Patah dan Sunan Kali Jaga yang berjasa besar. Carilah wayang di Jawa Barat, golek ono dalam bahasa jawi, sampai ketemu wong nya isinya yang di tengah, jangan hanya ketemu kulit nya saja di Timur di wetan wiwitan. Mencari jati diri itu di Barat atau Kulon atau kula yang ada di dalam dada hati manusia. Maksud para Wali terlalu luhur dan tinggi filosofi nya. Wayang itu tulen dari Jawa asli, pakeliran itu artinya pasangan antara bayang bayang dan barang aslinya. Seperti dua kalimah syahadat. Adapun Tuhan masyrik wal maghrib itu harus diterjemahkan ke dalam bahasa jawa dulu yang artinya wetan kawitan dan kulon atau kula atau saya yang ada di dalam. Carilah tuhan yang kawitan pertama dan yang ada di dalam hati manusia. (sik)
+
+Demikian juga saat masuknya Islam, ketika pertunjukan yang menampilkan “Tuhan” atau “Dewa” dalam wujud manusia dilarang, munculah boneka wayang yang terbuat dari kulit sapi, di mana saat pertunjukan yang ditonton hanyalah bayangannya saja. Wayang inilah yang sekarang kita kenal sebagai wayang kulit. Untuk menyebarkan Islam, berkembang juga wayang Sadat yang memperkenalkan nilai-nilai Islam.</string>
+    <string name="article_subtitle2">Wayang Kontemporer</string>
+    <string name="article_text2">\t Sejarah wayang kulit adalah sejarah inovasi. Mungkin perkembangan yang kita saksikan di abad ke-21 lebih drastis dari perkembangan yang telah terjadi pada abad-abad sebelumnya. Tapi kreativitas adalah amĕrta dunia wayang kulit. Meskipun batas antara wayang tradisi dan wayang kontemporer, serta antara wayang dan bentuk seni lainnya terkadang tidak jelas, untuk tujuan Arsip Wayang Kontemporer, pertunjukan wayang kontemporer didefinisikan dengan karakteristik sebagai berikut ini:\n\n
+    \t 1) Dalang merupakan figur utama. Banyak pertunjukan teater menggunakan konvensi wayang, tetapi sosok dalang tidak muncul, atau figur dalang muncul tapi tidak terlalu penting. Misalnya, karya Republik Bagong (2001), dari Teater Koma. Pertunjukan seperti ini, yang tidak memprioritaskan peran dalang tidak masuk ke dalam Arsip Wayang Kontemporer.\n\n
+\t 2) Konvensi-konvensi wayang kulit tetap digunakan. Konvensi karawitan, struktur lakon, seni rupa wayang dan bahasa pedhalangan masih tetap digunakan, meskipun konvensi-konvensi itu sudah dikemas atau ditafsirkan dengan gaya yang sangat jauh dari dunia wayang klasik.\n\n
+\t 3) Pertunjukan diciptakan dan direkam pada abad 21 di Jawa. Arsip tidak berisi versi wayang kontemporer dalam media film, karya seni, videograme atau novel. Arsip juga tidak berisi rekaman pertunjukan-pertunjukan kontemporer yang diciptakan di negara lain atau karya wayang kontemporer yang dibuat sebelum abad 21.\n\n
+\t Karakteristik ini penting untuk keperluan arsip. Tapi para pembuat Arsip Wayang Kontemporer prihatin karakteristik ini akan dianggap sebagai aturan baku. Ini hanya petunjuk untuk sementara – definisi dan makna wayang kontemporer pasti akan berubah seiring dengan perkembangan seni pertunjukan. Penting sekali kalau kita semua bisa terus membahas definisi dan fungsi wayang kontemporer di masa yang akan datang.
+
+ </string>
+    <string name="nama_tokoh">Nama tokoh</string>
+    <string name="nama_lain">Nama lain</string>
+    <string name="description">description</string>
+    <string name="aplikasi_text">
+
+        \t Bermain dan belajar mengenai dunia wayang kulit yang dikemas dalam  sebuah aplikasi berbasis android.\n\n
+
+\t <b>SinaWang</b> hadir untuk memberikan informasi terkait dunia wayang kulit serta membantu masyarakat diera modern ini dalam mempelajari salah satu kebudayaan indonesia yaitu wayag kulit.\n\n
+
+\t 4 Fitur utama SinaWang :\n\n
+
+\t 1. Tentang Wayang \n
+     \t\t Pelajari mengenai seputar dunia wayang dan sejarahnya dalam fitur ini.\n\n
+
+\t 2. Tokoh Wayang \n
+     \t\t Kenali tokoh wayang kulit dalam fitur ini.\n\n
+
+\t 3. Quiz Wayang\n
+     \t\t Bermain dan belajar dengan menyelesaikan tantangan pertanyaan dalam fitur ini.\n\n
+
+\t 4. Watak Wayang\n
+    \t\t Cari tahu Watak dari tokoh wayang dalam fitur ini.\n\n
+
+
+
+</string>
+    <string name="mahabarata">
+\t Mahabarata secara garis besar mengisahkan kehidupan Santanu (Çantanu) seorang raja yang perkasa keturunan keluarga Kuru dan bertakhta di kerajaan Barata. Bersama permaisurinya Dewi Gangga, mereka dikaruniai seorang putra bernama Bisma.\n\n
+\t Pada suatu hari Çantanu jatuh cinta pada seorang anak raja nelayan bernama Setyawati. Namun ayahanda Setyawati hanya mau memberikan putrinya jika Çantanu kelak mau menobatkan anaknya dari Setyawati sebagai putra mahkota pewaris takhta dan bukannya Bisma. Karena syarat yang berat ini Çantanu terus bersedih. Melihat hal ini, Bisma yang tahu mengapa ayahnya demikian, merelakan haknya atas takhta di Barata diserahkan kepada putra yang kelak lahir dari Setyawati. Bahkan bisma berjanji tidak akan menuntut itu kapan pun dan berjanji tidak akan menikah agar kelak tidak mendapat anak untuk mewarisi takhta Çantanu.\n\n
+\t Perkawinan Çantanu dan Setyawati melahirkan dua orang putra masing-masing Citranggada dan Wicitrawirya. Namun kedua putra ini meninggal dalam pertempuran tanpa meninggalkan keturunan. Karena takut punahnya keturunan raja, Setyawati memohon kepada Bisma agar menikah dengan dua mantan menantunya yang ditinggal mati oleh Wicitrawirya, masing-masing Ambika dan Ambalika. Namun permintaan ini ditolak Bisma mengingat sumpahnya untuk tidak menikah.\n\n
+\t Akhirnya Setyawati meminta kepada Wiyasa anaknya dari perkawinan yang lain, untuk menikah dengan Ambika dan Ambalika. Perkawinan dengan Ambika melahirkan Destarasta dan dengan Ambalika melahirkan Pandu. Destarasta lalu menikah dengan Gandari dan melahirkan seratus orang anak, sedangkan Pandu menikahi Kunti dan Madrim tapi tidak mendapat anak. Nanti ketika Kunti dan Madrim kawin dengan dewa-dewa, Kunti melahirkan 3 orang anak masing dengan dewa Darma lahirlah Yudistira, dengan dewa Bayu lahir Werkodara atau Bima dan dengan dewa Surya lahirlah Arjuna. Sedangkan Madrim yang menikah dengan dewa kembar Aҫ win, lahir anak kembar bernama Nakula dan Sadewa.\n\n
+\t Selanjutnya, keturunan-keturuan itu dibagi dua yakni keturunan Destarasta disebut Kaum Kurawa sedangkan keturunan Pandu disebut kaum Pandawa.\n\n
+\t Sebenarnya Destarasta berhak mewarisi takhta ayahnya, tapi karena ia buta sejak lahir, maka takhta itu kemudian diberikan kepada Pandu. Hal ini pada kemudian hari menjadi sumber bencana antara kaum Pandawa dan Kurawa dalam memperebutkan takhta sampai berlarut-larut, hingga akhirnya pecah perang dahsyat yang disebut baratayuda yang berarti peperangan memperebutkan kerajaan Barata.\n\n
+\t Peperangan diawali dengan aksi judi dimana kaum Pandawa kalah. Kekalahan ini menyebabkan mereka harus mengembara di hutan belantara selama dua belas tahun. Setelah itu, pada tahun ke-13 sesuai perjanjian dengan Kurawa, para Pandawa harus menyembunyikan diri di tempat tertentu. Namun para Pandawa memustuskan untuk bersembunyi di istana raja Matsya. Pada tahun berikutnya, para Pandawa keluar dari persembunyian dan memperlihatkan diri di muka umum lalu menuntut hak mereka kepada Kurawa. Namun tuntutan mereka tidak dipenuhi Kurawa hingga terjadi perang 18 hari yang menyebabkan lenyapnya kaum Kurawa. Dengan demikian, kaum Pandawa dengan leluasa mengambil alih kekuasaan di Barata.\n\n
+
+    </string>
+    <string name="ramayana">
+
+        \t Rāmâyaṇa; yang berasal dari kata Rāma dan Ayaṇa yang berarti "Perjalanan Rama") adalah sebuah cerita/kisah kepahlawanan dari India yang digubah oleh Walmiki (Valmiki) atau Balmiki dari cerita Dewi Sita. Cerita epos lainnya adalah Mahabharata.\n\n
+
+\t Ramayana terdapat pula dalam khazanah sastra Jawa dalam bentuk kakawin Ramayana, dan gubahan-gubahannya dalam bahasa Jawa Baru yang tidak semua berdasarkan kakawin ini.\n\n
+
+\t Dalam bahasa Melayu didapati pula Hikayat Seri Rama yang isinya berbeda dengan kakawin Ramayana dalam bahasa Jawa dan Bali kuno, yaitu wayang dan sendra tari.\n\n
+
+\t Di India dalam bahasa Sanskerta, Ramayana dibagi menjadi tujuh kitab atau kanda sebagai berikut:\n\n
+
+\t \t 1. Balakanda\n
+\t \t 2. Ayodhyakanda\n
+\t \t 3. Aranyakanda\n
+\t \t 4. Kiskindhakanda\n
+\t \t 5. Sundarakanda\n
+\t \t 6. Yuddhakanda\n
+\t \t 7. Uttarakanda\n\n\n
+\t Banyak yang berpendapat bahwa kanda pertama dan ketujuh merupakan sisipan baru. Dalam bahasa Jawa Kuna,\n\n
+
+
+\t Secara garis besar, cerita Mahabarata bercerita mengenai kehidupan Prabu Santanu atau Sentanu (Çantanu). Dia adalah seorang raja keturunan keluarga Kuru yang menjadi raja kerajaan Barata. Dia mempunyai permaisuri bernama Dewi Gangga, dan berputra Bisma.\n\n
+\t Isi epos Mahabarata secara garis besar mengisahkan kehidupan Santanu (Çantanu) seorang raja yang perkasa keturunan keluarga Kuru dan bertakhta di kerajaan Barata. Bersama permaisurinya Dewi Gangga, mereka dikaruniai seorang putra bernama Bisma.\n\n
+
+\t Pada suatu hari Çantanu jatuh cinta pada seorang anak raja nelayan bernama Setyawati. Namun ayahanda Setyawati hanya mau memberikan putrinya jika Çantanu kelak mau menobatkan anaknya dari Setyawati sebagai putra mahkota pewaris takhta dan bukannya Bisma. Karena syarat yang berat ini Çantanu terus bersedih. Melihat hal ini, Bisma yang tahu mengapa ayahnya demikian, merelakan haknya atas takhta di Barata diserahkan kepada putra yang kelak lahir dari Setyawati. Bahkan Bisma berjanji tidak akan menuntut itu kapan pun dan berjanji tidak akan menikah agar kelak tidak mendapat anak untuk mewarisi takhta Çantanu.\n\n
+
+\t Perkawinan Çantanu dan Setyawati melahirkan dua orang putra masing-masing Citranggada dan Wicitrawirya. Namun kedua putra ini meninggal dalam pertempuran tanpa meninggalkan keturunan. Karena takut punahnya keturunan raja, Setyawati memohon kepada Bisma agar menikah dengan dua mantan menantunya yang ditinggal mati oleh Wicitrawirya, masing-masing Ambika dan Ambalika. Namun permintaan ini ditolak Bisma mengingat sumpahnya untuk tidak menikah.\n\n
+
+\t Akhirnya Setyawati meminta kepada Wiyasa, anaknya dari perkawinan yang lain, untuk menikah dengan Ambika dan Ambalika. Perkawinan dengan Ambika melahirkan Destarasta dan dengan Ambalika melahirkan Pandu.\n\n
+
+\t Destarasta lalu menikah dengan Gandari dan melahirkan seratus orang anak, sedangkan Pandu menikahi Kunti dan Madrim tapi tidak mendapat anak. Nanti ketika Kunti dan Madrim kawin dengan dewa-dewa, Kunti melahirkan 3 orang anak masing dengan dewa Darma lahirlah Yudistira, dengan dewa Bayu lahir Werkodara atau Bima dan dengan dewa Indra lahirlah Arjuna. Sedangkan Madri yang menikah dengan dewa kembar Aҫwin, lahir anak kembar bernama Nakula dan Sadewa.\n\n
+
+\t Selanjutnya, keturunan-keturuan itu dibagi dua yakni keturunan Destarasta disebut Kaum Kurawa sedangkan keturunan Pandu disebut kaum Pandawa.\n\n
+
+\t Sebenarnya Destarasta berhak mewarisi takhta ayahnya, tapi karena ia buta sejak lahir, maka takhta itu kemudian diberikan kepada Pandu. Hal ini pada kemudian hari menjadi sumber bencana antara kaum Pandawa dan Kurawa dalam memperebutkan takhta sampai berlarut-larut, hingga akhirnya pecah perang dahsyat yang disebut Baratayuda yang berarti peperangan memperebutkan kerajaan Barata.\n\n
+
+\t Peperangan diawali dengan aksi judi dimana kaum Pandawa kalah. Kekalahan ini menyebabkan mereka harus mengembara di hutan belantara selama dua belas tahun. Setelah itu, pada tahun ke-13 sesuai perjanjian dengan Kurawa, para Pandawa harus menyembunyikan diri di tempat tertentu. Namun para Pandawa memutuskan untuk bersembunyi di istana raja Matsyapati. Pada tahun berikutnya, para Pandawa keluar dari persembunyian dan memperlihatkan diri di muka umum lalu menuntut hak mereka kepada Kurawa. Namun tuntutan mereka tidak dipenuhi Kurawa hingga terjadi perang 18 hari yang menyebabkan lenyapnya kaum Kurawa. Dengan demikian, kaum Pandawa dengan leluasa mengambil alih kekuasaan di Barata.\n\n
+
+    </string>
+
+
+    <string-array name="nama_wayang">
+        <item>Kresna</item>
+        <item>Werkudara</item>
+        <item>Arjuna</item>
+        <item>Yudhistira</item>
+        <item>Nakula</item>
+        <item>Sadewa</item>
+        <item>Gatotkaca</item>
+        <item>Hanoman</item>
+        <item>Dewi Shinta</item>
+        <item>Rama Wijaya</item>
+        <item>Rahwana</item>
+        <item>Laksmana</item>
+        <item>Indrajit</item>
+        <item>Semar</item>
+        <item>Gareng</item>
+        <item>Petruk</item>
+        <item>Bagong</item>
+    </string-array>
+
+    <string-array name="nama_lain_wayang">
+        <item>Acyuta, Basudewa, Bagawan, Gopala, Gowinda, Hari, Kesawa, Madawa, Narayana, Wisnu. </item>
+        <item>Werkodara, Bimasena, Bayusuta, Bratasena, Jagal Bilawa, Bimasuci</item>
+        <item>Permadi, Parta, Dananjaya, Parantapa, Kaunteya, Palguna, Jisnu, Kerti, Bharatasresta, Sawyasachi, Swetawahana, Wrehatnala.</item>
+        <item>Puntadewa</item>
+        <item>Pinten</item>
+        <item>Tangsen</item>
+        <item>Kacanegara, Tetuka, Purubaya, Bimasiwi, Kancing Jaya, Krincing Wesi, Guritna, Guruputra, Suryanarada, Arimbiputra.</item>
+        <item>Anjani putra, Bayudara, Kapiwara, Palwaga Seta.</item>
+        <item>Maithilī,Janakī.</item>
+        <item>Rama Legawa</item>
+        <item>Dasamuka, wis-rawaputra, Sukesiputra, Dasawanda</item>
+        <item>Widagda,Sumitratmaja</item>
+        <item>Megananda</item>
+        <item>Nayantaka, Sanronsari, Duda Manang Munung, Juru Dyah Puntaprasanta, Janggan Asmarasanta, Wong Boga Sampir, Bojagati, Ismaya.</item>
+        <item>Pancalpanor, Pegatwaja, Cokrowongso</item>
+        <item>Kantong Belong</item>
+        <item>Bawor</item>
+    </string-array>
+
+    <string-array name="gambar_wayang">
+        <item>@drawable/kresna</item>
+        <item>@drawable/werkudara</item>
+        <item>@drawable/arjuna</item>
+        <item>@drawable/yudhistira</item>
+        <item>@drawable/nakulaa</item>
+        <item>@drawable/sadewaa</item>
+        <item>@drawable/gatotkaca</item>
+        <item>@drawable/hanoman</item>
+        <item>@drawable/sinta</item>
+        <item>@drawable/rama</item>
+        <item>@drawable/dasamuka</item>
+        <item>@drawable/laksmana</item>
+        <item>@drawable/indrajid</item>
+        <item>@drawable/semar</item>
+        <item>@drawable/gareng</item>
+        <item>@drawable/petruk</item>
+        <item>@drawable/bagong</item>
+    </string-array>
+
+    <string-array name="deskripsi_W_Wayang">
+        <item>Pemberani, Bijaksana </item>
+        <item>Suka menolong, Teliti </item>
+        <item>Kesatria, cerdas </item>
+        <item>Sifatnya sangat bijaksana, tidak memiliki musuh, hampir tak pernah berdusta seumur hidupnya.</item>
+        <item>jujur, setia, taat pada orang tua dan tahu membalas budi serta dapat menjaga rahasia.</item>
+        <item>jujur, setia, taat pada orang tua dan tahu membalas budi serta dapat menjaga rahasia.</item>
+        <item>Kuat,sakti,pemberani.</item>
+        <item>Pemberani, setia, dan waspada meski memilki rupa layaknya kera putih.</item>
+        <item>Setia dengan rama, sabar.</item>
+        <item>Adil,pemberani,berperilaku baik.</item>
+        <item>Bengis dan kejam.</item>
+        <item>Jujur, adil, suka membantu sesama.</item>
+        <item>Bertekat kuat, pemberani.</item>
+        <item>Cerdik dan cermat sekali.</item>
+        <item>Mempunyai hati yang bersih, tidak suka melirik barang orang lain.</item>
+        <item>Jenaka, pandai melawak, menyanyi, menari, dan ia paling menonjol untuk menghibur kesatria (tuannya) yang sedang susah, maka Petruk sangat disayangi bendaranya (tuannya).</item>
+        <item>Nakal dan lucu, tetapi cerdik sehingga selalu dekat dengan tuannya.</item>
+    </string-array>
+
+
+</resources>

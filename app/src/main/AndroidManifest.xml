@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sinawang">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/l1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SinaWang">
+        <activity
+            android:name=".MahabarataActivity"
+            android:label="Kisah Mahabarata"
+            android:parentActivityName=".TentangWayangActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TentangWayangActivity" />
+
+        </activity>
+        <activity
+            android:name=".RamayanaActivity"
+            android:label="Kisah Ramayana"
+            android:parentActivityName=".TentangWayangActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TentangWayangActivity" />
+
+        </activity>
+        <activity android:name=".QuizResultGame" />
+        <activity android:name=".QuizGameQuestionActivity" />
+        <activity
+            android:name=".QuizGameActivity"
+            android:label="Quiz Wayang"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".DetailActivity"
+            android:label=""
+            android:parentActivityName=".TokohWActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".TentangAActivity"
+            android:label="Tentang Aplikasi"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".QuizActivity"
+            android:label=""
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".TokohWActivity"
+            android:label="Tokoh Wayang"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".TentangWayangActivity"
+            android:label="Tentang wayang"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".SplashScreen">
+
+            <!-- android:parentActivityName=".MainActivity" -->
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+
+            <!-- <intent-filter> -->
+
+
+            <!-- &lt;!&ndash;                &lt;!&ndash; <action android:name="android.intent.action.MAIN" /> &ndash;&gt;&ndash;&gt; -->
+            <!-- &lt;!&ndash;                &lt;!&ndash; <category android:name="android.intent.category.LAUNCHER" /> &ndash;&gt;&ndash;&gt; -->
+
+
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+            <!-- &lt;!&ndash;                <action android:name="android.intent.action.MAIN" />&ndash;&gt; -->
+
+
+            <!-- &lt;!&ndash;                <category android:name="android.intent.category.LAUNCHER" />&ndash;&gt; -->
+
+
+            <!-- </intent-filter> -->
+
+        </activity>
+    </application>
+
+</manifest>

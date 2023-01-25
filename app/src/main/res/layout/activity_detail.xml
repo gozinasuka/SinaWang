@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/wImageDetail"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_marginTop="80dp"
+            android:adjustViewBounds="true"
+            />
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/titleDetail"-->
+<!--            android:layout_below="@id/sportsImageDetail"-->
+<!--            style="@style/TextAppearance.AppCompat.Headline"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="@dimen/activity_horizontal_margin"-->
+<!--            android:textColor="#000"-->
+<!--            android:text="@string/title_product"-->
+<!--            android:theme="@style/ThemeOverlay.AppCompat.Dark"/>-->
+<!--        <TextView-->
+<!--            android:id="@+id/subTitleDetail"-->
+<!--            style="@style/TextAppearance.AppCompat.Subhead"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/titleDetail"-->
+<!--            android:padding="@dimen/activity_horizontal_margin"-->
+<!--            android:text="@string/filler_text" />-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/text_harga"-->
+<!--            android:layout_below="@+id/subTitleDetail"-->
+<!--            android:layout_marginTop="150dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Beli"></TextView>-->
+<!--        <TextView-->
+<!--            android:id="@+id/priceDetail"-->
+<!--            style="@style/TextAppearance.AppCompat.Subhead"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/text_harga"-->
+<!--            android:padding="@dimen/activity_horizontal_margin"-->
+<!--            android:text="@string/title_price"-->
+<!--            android:textColor="?android:textColorSecondary" />-->
+<!--        <Button-->
+<!--            android:id="@+id/text_x"-->
+<!--            android:layout_below="@+id/text_harga"-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginLeft="110dp"-->
+<!--            android:textSize="25dp"-->
+<!--            android:text="-"-->
+<!--            android:onClick="decrement"-->
+<!--            ></Button>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/text_y"-->
+<!--            android:layout_below="@+id/text_harga"-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginLeft="200dp"-->
+<!--            android:textSize="25dp"-->
+<!--            android:text="+"-->
+<!--            android:onClick="increment"-->
+<!--            ></Button>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/text_jumlah"-->
+<!--            android:layout_below="@+id/text_harga"-->
+<!--            android:inputType="number"-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_marginLeft="155dp"-->
+<!--            android:textSize="25dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="0"></TextView>-->
+<!--        <TextView-->
+<!--            android:id="@+id/text_subtotal"-->
+<!--            android:layout_below="@+id/priceDetail"-->
+<!--            android:layout_width="70dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginLeft="110dp"-->
+<!--            android:gravity="center"-->
+<!--            android:textSize="14dp"-->
+<!--            android:text="Sub total : "></TextView>-->
+<!--        <TextView-->
+<!--            android:id="@+id/text_total"-->
+<!--            android:layout_below="@+id/priceDetail"-->
+<!--            android:inputType="number"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_marginLeft="180dp"-->
+<!--            android:layout_marginTop="175dp"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:gravity="start"-->
+<!--            android:textSize="25dp"-->
+<!--            android:padding="2dp"-->
+<!--            android:hint="0"></TextView>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/pesant"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_below="@id/priceDetail"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginTop="175dp"-->
+<!--            android:layout_marginBottom="0dp"-->
+<!--            android:background="@drawable/btn_curvy"-->
+<!--            android:onClick="pesan"-->
+<!--            android:text="Pesan"-->
+<!--            android:textSize="20dp"-->
+<!--            android:textStyle="bold"></Button>-->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgcurvyup"
+        android:layout_marginTop="320dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp">
+
+            //titledetail = nama tokoh
+            <TextView
+                android:id="@+id/titleDetail"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="36dp"
+                android:layout_centerHorizontal="true"
+                android:text="@string/nama_tokoh"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+            <TextView
+                android:id="@+id/t_nama"
+                android:layout_below="@id/titleDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textColor="#fff"
+                android:textSize="24dp"
+                android:text="Nama lain tokoh : "></TextView>
+            //nama_l_t = nama lain
+            <TextView
+                android:id="@+id/nama_l_t"
+                android:layout_below="@id/t_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="#fff"
+                android:textSize="24dp"
+                android:text="Nama lain tokoh"></TextView>
+
+            <TextView
+                android:id="@+id/t_w"
+                android:layout_below="@id/nama_l_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textColor="#fff"
+                android:textSize="24dp"
+                android:text="Watak tokoh : "></TextView>
+            <TextView
+                android:id="@+id/watak_t"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/t_w"
+                android:text="Watak tokoh"
+                android:textSize="24dp"
+                android:textColor="#fff"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/nama_l"-->
+<!--                android:layout_below="@id/subTitleDetail"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="50dp"-->
+<!--                android:textColor="#fff"-->
+<!--                android:textSize="24dp"-->
+<!--                android:text="Nama lain :"></TextView>-->
+<!--            -->
+<!--            <TextView-->
+<!--                style="@style/TextAppearance.AppCompat.Subhead"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_below="@id/nama_l"-->
+<!--                android:text="Nama lain"-->
+<!--                android:textSize="24dp"-->
+<!--                android:textColor="#fff"/>-->
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

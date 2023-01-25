@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="270dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="@dimen/margin_list_item"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/product_image"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/product"
+            android:layout_below="@id/product_image"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/card_margin"
+            android:gravity="center"
+            android:text="@string/nama_tokoh"
+            android:textSize="20dp"
+            android:textColor="@color/cardview_dark_background"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentRight="true">-->
+<!--            -->
+
+            <TextView
+                android:id="@+id/textnamalain"
+                android:layout_below="@id/product"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:padding="10dp"
+                android:text="Nama lain : "
+                android:textColor="?android:textColorSecondary" />
+            <TextView
+                android:id="@+id/nama_lain"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textnamalain"
+                android:padding="2dp"
+                android:text="@string/nama_lain"
+                android:textColor="?android:textColorSecondary" />
+
+            <Button
+                android:id="@+id/btn_watak"
+                android:layout_below="@id/nama_lain"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_yellow"
+                android:text="Watak Wayang"
+                android:textAlignment="center"
+                android:textColor="#ffff"></Button>
+
+            <TextView
+                android:id="@+id/description"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_watak"
+                android:padding="@dimen/card_margin"
+                android:text="@string/description"
+                />
+<!--        </RelativeLayout>-->
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
